@@ -2,7 +2,6 @@
 
 const screen = document.querySelector('#wid-diagram')
 
-// const camera = new THREE.PerspectiveCamera(200, 735 / 508, 0.8, 10000)
 const camera = new THREE.OrthographicCamera(735 / -4.5, 735 / 4.5, 508 / 4.5, 508 / -4.5, 0.2, 1000)
 
 const scene = new THREE.Scene()
